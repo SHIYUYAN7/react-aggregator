@@ -1,2 +1,2 @@
-# react-aggregator
+# React Aggregator
 
