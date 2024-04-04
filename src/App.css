@@ -71,7 +71,7 @@
     
     .cart ul {
         list-style: none; /* drop mark */
-        max-height: 300px;
+        max-height: 26vmax;
         overflow-y: auto; /* when exceed 200px, scroll appear*/
         margin: 0;
         padding: 0;

@@ -12,7 +12,14 @@ crytopunks.forEach((item) => {
 
 function App() {
   // use useState to create a state variable to hold the state 
-  const [cart, setCart] = useState([]);
+  const [cart, setCart] = useState([
+    {
+      name: "Welcome",
+      image: process.env.PUBLIC_URL + "/Images/welcome.jpg", 
+      price: 0,
+      quantity: 1
+    }
+  ]);
   const [filter, setFilter] = useState({ glasses: false, smoke: false });
   const [sortOrder, setSortOrder] = useState(null); // null means no sorting
   const [show, setShow] = useState(false);

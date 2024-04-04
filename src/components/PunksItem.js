@@ -5,7 +5,7 @@ const PunksItem = ({ item, addToCart }) => {
     // mb-4:margin bottom 4; shadow-sm:small shadow of card
     <div className="card ShoppingItem mb-4 shadow-sm">
       {/* card-img-top: make img at the top of card */}
-      <img src={item.image} alt={item.description} className="card-img-top" />
+      <img src={item.image} alt={`Glasses: ${item.glasses}, Smoke: ${item.smoke}`} className="card-img-top" />
       {/* card-body: a container; card title; card text; */}
       <div className="card-body">
         <h4 className='card-title itemName'>{item.name}</h4>
