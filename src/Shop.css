@@ -1,0 +1,110 @@
+.Shop {
+    /* global font-family */
+    font-family: "Audiowide", sans-serif;
+
+    .App-header {
+        height: 15vh; 
+        background-color: #282c34; 
+        color: white; 
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* shadow */
+        display: flex;
+        align-items: center; /* vertically */
+        justify-content: center; /* horizontally */
+    }
+
+    .App-header > h1 {
+        margin: 0;
+        padding: 0;
+        text-align: center; 
+        font-size: calc(15px + 2vmin); /* Responsive font size */
+        font-weight: 350;
+        letter-spacing: 1.5px; /* letter spacing */
+    }
+
+    .App-footer{
+        padding-top: 2%;
+        background-color: #282c34;
+        color: white;
+    }
+
+    .preview-font{
+        font-size: 35px;
+    }
+
+    .itemDescription{
+        height: 80px;
+    }
+
+    .reset-button {
+        margin-left: 10px;
+        background-color: #282c34;
+        color: white; 
+    }
+      
+    .reset-button:hover {
+        background-color: #FF2B6D;
+    }
+
+    .filter-checkbox{
+        margin-left: 10px;
+    }
+
+    .toast-container{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+    }
+
+    .spacing{
+        height: 30px;
+    }
+
+    .custom-img {
+        transition: transform .5s ease, filter .5s ease;
+    }
+
+    .cart-container{
+        height: 30%;
+    }
+
+    .cart {
+        padding: 20px;
+        background-color: #f8f9fa; 
+        border-radius: 8px;
+    }
+    
+    .cart h2, .cart h3 {
+        color: #282c34;
+    }
+    
+    .cart ul {
+        list-style: none; /* drop mark */
+        max-height: 26vmax;
+        overflow-y: auto; /* when exceed 200px, scroll appear*/
+        margin: 0;
+        padding: 0;
+    }
+    
+    .cart li {
+        margin-bottom: 10px; 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .cart button {
+        background-color: #dc3545;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        margin-left: 10px; 
+        border-radius: 5px; 
+    }
+    
+    .cart button:hover {
+        background-color: #c82333; 
+    }
+
+}
