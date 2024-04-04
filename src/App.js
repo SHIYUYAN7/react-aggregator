@@ -15,7 +15,7 @@ function App() {
   const [cart, setCart] = useState([
     {
       name: "Welcome",
-      image: process.env.PUBLIC_URL + "/Images/welcome.jpg", 
+      image: process.env.PUBLIC_URL + "/Images/1346.png", 
       price: 0,
       quantity: 1
     }
