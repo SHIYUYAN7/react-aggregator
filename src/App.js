@@ -188,6 +188,17 @@ function App() {
           ))}
         </div>
       </div>
+
+      <footer className="App-footer mt-4">
+        <Container>
+          <Row>
+            <Col className="text-center">
+              <p>© 2024 Cryptopunk Marketplace. All rights reserved.</p>
+            </Col>
+          </Row>
+        </Container>
+      </footer>
+
     </div>
 
   );

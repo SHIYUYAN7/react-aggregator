@@ -21,6 +21,12 @@
         letter-spacing: 1.5px; /* letter spacing */
     }
 
+    .App-footer{
+        padding-top: 2%;
+        background-color: #282c34;
+        color: white;
+    }
+
     .preview-font{
         font-size: 35px;
     }
