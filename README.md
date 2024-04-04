@@ -1,4 +1,4 @@
-# vercel deplopment
+# Web page deployed using vercel 
 https://cryptopunks-shop.vercel.app/
 
 ## Available Scripts
