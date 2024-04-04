@@ -15,9 +15,11 @@ function App() {
   const [cart, setCart] = useState([
     {
       name: "Welcome",
-      image: process.env.PUBLIC_URL + "/Images/1346.png", 
+      image: "/Images/1346.png",
       price: 0,
-      quantity: 1
+      quantity: 1,
+      glasses:false,
+      smoke:false,
     }
   ]);
   const [filter, setFilter] = useState({ glasses: false, smoke: false });
