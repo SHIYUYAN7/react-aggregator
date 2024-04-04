@@ -1,3 +1,40 @@
 .App {
-  
+    /* global font-family */
+    font-family: "Audiowide", sans-serif;
+
+    .App-header {
+        height: 15vh; 
+        background-color: #282c34; 
+        color: white; 
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* shadow */
+        display: flex;
+        align-items: center; /* vertically */
+        justify-content: center; /* horizontally */
+
+    }
+
+    .App-header > div {
+        text-align: center; 
+        font-size: calc(15px + 2vmin); /* Responsive font size */
+        font-weight: 350;
+        letter-spacing: 1.5px; /* letter spacing */
+    }
+
+    .itemDescription{
+        height: 80px;
+    }
+
+    .reset-button {
+        background-color: #282c34;
+        color: white; 
+    }
+      
+    .reset-button:hover {
+        background-color: #FF2B6D;
+    }
+
+    .filter-checkbox{
+        margin-left: 10px;
+    }
+
 }

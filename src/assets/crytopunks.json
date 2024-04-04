@@ -1,0 +1,99 @@
+[
+    {
+      "name": "CP-1123",
+      "description": "A person wearing 3D glasses and blonde hair",
+      "price": 500,
+      "glasses": true,
+      "smoke": false,
+      "image": "images/1123.png"
+    },
+    {
+      "name": "CP-1129",
+      "description": "A person with purple hair, holding a cigarettes to their mouth",
+      "price": 624,
+      "glasses": false,
+      "smoke": true,
+      "image": "images/1129.png"
+    },
+    {
+      "name": "CP-1172",
+      "description": "A person with black hat and glasses, smoking a cigarette",
+      "price": 700,
+      "glasses": true,
+      "smoke": true,
+      "image": "images/1172.png"
+    },
+    {
+      "name": "CP-1177",
+      "description": "A person in the gray hooded suit",
+      "price": 348,
+      "glasses": false,
+      "smoke": false,
+      "image": "images/1177.png"
+    },
+    {
+      "name": "CP-1183",
+      "description": "A person with sunglasses and purple hats",
+      "price": 846,
+      "glasses": true,
+      "smoke": false,
+      "image": "images/1183.png"
+    },
+    {
+      "name": "CP-1198",
+      "description": "A person with bright green hair, glasses, and a necklace",
+      "price": 447,
+      "glasses": true,
+      "smoke": false,
+      "image": "images/1198.png"
+    },
+    {
+      "name": "CP-1220",
+      "description": "A person with pink cheeks and pink lips, wearing a black hat",
+      "price": 523,
+      "glasses": false,
+      "smoke": false,
+      "image": "images/1220.png"
+    },
+    {
+      "name": "CP-1455",
+      "description": "A person with a radiant blonde hairstyle and pink lipstick",
+      "price": 437,
+      "glasses": true,
+      "smoke": false,
+      "image": "images/1455.png"
+    },
+    {
+      "name": "CP-1493",
+      "description": "A person with blonde hair, smoking a cigarette",
+      "price": 493,
+      "glasses": true,
+      "smoke": true,
+      "image": "images/1493.png"
+    },
+    {
+      "name": "CP-1526",
+      "description": "A green-faced person with a purple cap and a red eye accent",
+      "price": 753,
+      "glasses": true,
+      "smoke": false,
+      "image": "images/1526.png"
+    },
+    {
+      "name": "CP-1554",
+      "description": "A person with green checkered headwear",
+      "price": 758,
+      "glasses": false,
+      "smoke": true,
+      "image": "images/1554.png"
+    },
+    {
+      "name": "CP-1627",
+      "description": "A person with a beard, wearing a police-style cap",
+      "price": 544,
+      "glasses": false,
+      "smoke": false,
+      "image": "images/1627.png"
+    }
+]
+  
