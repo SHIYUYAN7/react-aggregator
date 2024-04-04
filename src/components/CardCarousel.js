@@ -13,7 +13,7 @@ const CardCarousel = ({ cart }) => {
               alt={`Price:${item.price}, Glasses: ${item.glasses}, Smoke: ${item.smoke}`}
             />
             <Carousel.Caption>
-              <h3>{item.name}</h3>
+              <div>{item.name}</div>
             </Carousel.Caption>
           </Carousel.Item>
         ))}
