@@ -1,9 +1,7 @@
 import './App.css';
 import { useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Dropdown from 'react-bootstrap/Dropdown';
-import Form from 'react-bootstrap/Form';
-import { Container, Row, Col, Toast } from 'react-bootstrap';
+import { Container, Row, Col, Form, Dropdown, Toast } from 'react-bootstrap';
 import crytopunks from "./assets/crytopunks.json";
 import PunksItem from './components/PunksItem';
 import CardCarousel from './components/CardCarousel';
@@ -18,27 +16,6 @@ function App() {
   const [filter, setFilter] = useState({ glasses: false, smoke: false });
   const [sortOrder, setSortOrder] = useState(null); // null means no sorting
   const [show, setShow] = useState(false);
-
-  // const addToCart = (newItem) => {
-  //   setCart((currentCart) => {
-  //     // check if the item is in the cart
-  //     const existingItemIndex = currentCart.findIndex(item => item.name === newItem.name);
-      
-  //     // found then increment its quantity
-  //     if (existingItemIndex >= 0) {
-  //       // Increment the quantity of the existing item
-  //       const newCart = [...currentCart];
-  //       newCart[existingItemIndex] = {
-  //         ...newCart[existingItemIndex],
-  //         quantity: newCart[existingItemIndex].quantity + 1
-  //       };
-  //       return newCart;
-  //     } else {
-  //       // not found add the new item with a quantity of 1
-  //       return [...currentCart, {...newItem, quantity: 1}];
-  //     }
-  //   });
-  // };
 
   const addToCart = (newItem) => {
     setCart((currentCart) => {
@@ -103,10 +80,9 @@ function App() {
   
   return (
     
-
     <div className="App">
       <header className="App-header">
-        <div>CRYPTOPUNKS SHOP</div>
+        <h1>CRYPTOPUNKS SHOP</h1>
       </header>
 
       <div className="toast-container">
@@ -118,10 +94,10 @@ function App() {
         </Toast>
       </div>
 
-      <Container>
+      <div className='spacing'></div>
+      <Container className="cart-container">
         <Row>
           <Col md={6}>
-            <div className='spacing'></div>
             <CardCarousel cart={cart}></CardCarousel>
           </Col>
           <Col md={6}>
@@ -130,7 +106,7 @@ function App() {
                 <ul>
                   {cart.map((item, index) => (
                     <li key={index}>
-                      {item.name} ${item.price.toFixed(2)}
+                      {item.name} ${item.price}
                       <button onClick={() => removeFromCart(item.name)}>Remove</button>
                     </li>
                   ))}

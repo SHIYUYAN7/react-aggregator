@@ -10,7 +10,7 @@ const CardCarousel = ({ cart }) => {
             <img
               className="d-block w-100 custom-img"
               src={item.image}
-              alt={item.name}
+              alt={item.description}
             />
             <Carousel.Caption>
               <h3>{item.name}</h3>
