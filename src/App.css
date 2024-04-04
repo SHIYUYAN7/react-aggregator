@@ -21,6 +21,10 @@
         letter-spacing: 1.5px; /* letter spacing */
     }
 
+    .preview-font{
+        font-size: 35px;
+    }
+
     .itemDescription{
         height: 80px;
     }

@@ -13,7 +13,7 @@ const CardCarousel = ({ cart }) => {
               alt={`Price:${item.price}, Glasses: ${item.glasses}, Smoke: ${item.smoke}`}
             />
             <Carousel.Caption>
-              <div>{item.name}</div>
+              <div className='preview-font'>{item.name}</div>
             </Carousel.Caption>
           </Carousel.Item>
         ))}
