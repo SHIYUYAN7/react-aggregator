@@ -16,12 +16,12 @@ function HandinPage() {
           <section id="introduction">
               <h2>React Development Assignment</h2>
               <div class="small-paragraph-space"></div>
-              <div class="small-content-style"><span class="first-letter">T</span>he Cryptopunks Shop project highlights the innovative fusion of art, technology, and NFTs through a user-centric design and React application. By analyzing competitive web platforms, we aim to identify essential features that engage users and distinguish our approach for a more efficient online experience.</div>
+              <div class="small-content-style"><span class="first-letter">M</span>y enthusiasm for creating a Cryptopunks Shop compels me to embark on an exploration and analysis of various competitive web platforms equipped with aggregators. By delving into these platforms, we aim to pinpoint the quintessential features that captivate users and differentiate our strategy, thereby enhancing the efficiency of the online experience. The Cryptopunks Shop project emphasizes the fusion of art, technology, and encapsulation in a user-centered design application.</div>
           </section>
           <div class="paragraph-space"></div>
             <section id="usability-problems">
               <h3>Competitive Analysis</h3>
-              <div class="small-content-style">Competitive comparisons show that Spotify's robust sharing features and personalized recommendations make it a socially appealing platform. Amazon offers an efficient shopping experience with easy-to-add products and a prominent shopping cart location, while Airbnb's one-click add favorites feature improves ease of use and increases the likelihood that users will choose based on thumbnails as a first impression.</div>
+              <div class="small-content-style">Competitive comparisons below show that <a className='hyperlink' href='https://open.spotify.com/'>Spotify's</a> robust sharing features and personalized recommendations make it a socially appealing platform. <a className='hyperlink' href='https://www.amazon.com/' >Amazon</a> offers an efficient shopping experience with easy-to-add products and a prominent shopping cart location, while <a className='hyperlink' href='https://www.airbnb.com/' >Airbnb's</a> one-click add favorites feature improves ease of use and increases the likelihood that users will choose based on thumbnails as a first impression.</div>
               <div class="small-paragraph-space"></div>
               <table>
                 <tr>
